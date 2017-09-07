@@ -12,10 +12,10 @@ import javax.imageio.ImageIO;
 @SuppressWarnings("serial")
 public class WindowButton extends WindowComponent {
 	
-	BufferedImage image_static;
-	BufferedImage image_hover;
-	BufferedImage image_pressed;
-	boolean mouse_hover;
+	public BufferedImage image_static;
+	public BufferedImage image_hover;
+	public BufferedImage image_pressed;
+	public boolean mouse_hover;
 	
 	public WindowButton(String filename_static, String filename_hover, String filename_pressed) {
 		

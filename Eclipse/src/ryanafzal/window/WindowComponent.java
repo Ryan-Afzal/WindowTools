@@ -37,9 +37,7 @@ public class WindowComponent extends JComponent {
 		}
 	}
 	
-	public void click() {
-		
-	}
+	public void click() {}
 	
 	@Override
 	public void paintComponent(Graphics g) {
