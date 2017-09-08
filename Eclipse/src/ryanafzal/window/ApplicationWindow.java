@@ -2,6 +2,8 @@ package ryanafzal.window;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+
+import java.awt.BorderLayout;
 import java.awt.event.*;
 import java.awt.image.*;
 import java.io.*;
@@ -17,7 +19,7 @@ public class ApplicationWindow extends JFrame {
 		init_images(filename);
 		init_close();
 	}
-	
+	//BorderLayout layout = new BorderLayout();
 	public void init_close() {
 		addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
